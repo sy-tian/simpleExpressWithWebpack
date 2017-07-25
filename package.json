@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack && npm start"
+  },
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "webpack": "^3.3.0",
+    "file-loader": "^0.11.2",
+    "express": "^4.15.3"
+  }
+}
