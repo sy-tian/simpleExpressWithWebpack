@@ -1,5 +1,5 @@
-var path = require("path");
-var express = require("express");
+import path from "path";
+import express from "express";
 
 const DIST_DIR = path.join(__dirname, "dist"),
     PORT = 3000,

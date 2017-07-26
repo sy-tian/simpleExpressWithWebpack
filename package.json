@@ -1,14 +1,17 @@
 {
   "scripts": {
-    "start": "node server.js",
-    "dev": "webpack && npm start"
+    "start": "babel-node server.js"
   },
   "name": "myapp",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "webpack": "^3.3.0",
+    "express": "^4.15.3",
     "file-loader": "^0.11.2",
-    "express": "^4.15.3"
+    "webpack": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
   }
 }

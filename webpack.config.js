@@ -1,4 +1,4 @@
-var path = require("path");
+import path from "path";
 
 const DIST_DIR = path.join(__dirname, "dist"),
     CLIENT_DIR = path.join(__dirname, "src");
